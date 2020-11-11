@@ -1,0 +1,29 @@
+#!/bin/bash
+# test script
+
+#xterm -hold -title "Peer 1" -e "python p2p.py init 1 2 3 30" &
+#xterm -hold -title "Peer 2" -e "python p2p.py init 2 3 4 30" &
+#xterm -hold -title "Peer 3" -e "python p2p.py init 3 4 1 30" &
+#xterm -hold -title "Peer 4" -e "python p2p.py init 4 1 2 30"
+
+xterm -hold -title "Peer 1" -e "python p2p.py init 1 3 6 30" &
+
+xterm -hold -title "Peer 3" -e "python p2p.py init 3 6 7 30" &
+
+xterm -hold -title "Peer 6" -e "python p2p.py init 6 7 1 30" &
+xterm -hold -title "Peer 7" -e "python p2p.py init 7 1 3 30"
+
+#xterm -hold -title "Peer 2" -e "python p2p.py init 2 4 5 30" &
+#xterm -hold -title "Peer 4" -e "python p2p.py init 4 5 8 30" &
+#xterm -hold -title "Peer 5" -e "python p2p.py init 5 8 9 30" &
+#xterm -hold -title "Peer 8" -e "python p2p.py init 8 9 14 30" &
+#xterm -hold -title "Peer 9" -e "python p2p.py init 9 14 19 30" &
+#xterm -hold -title "Peer 14" -e "python p2p.py init 14 19 2 30" &
+#xterm -hold -title "Peer 19" -e "python p2p.py init 19 2 4 30" #&
+
+#xterm -hold -title "Peer 1" -e "python p2p.py init 1 3 5 30" &
+
+#xterm -hold -title "Peer 3" -e "python p2p.py init 3 5 7 30" &
+
+#xterm -hold -title "Peer 5" -e "python p2p.py init 5 7 1 30" &
+#xterm -hold -title "Peer 7" -e "python p2p.py init 7 1 3 30"
